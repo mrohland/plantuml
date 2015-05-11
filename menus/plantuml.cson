@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Generate PNG from plantuml'
+      'command': 'plantuml:generate'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'PlantUML'
+      'submenu': [
+        {
+          'label': 'Generate'
+          'command': 'plantuml:generate'
+        }
+      ]
+    ]
+  }
+]
