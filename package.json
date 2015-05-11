@@ -1,7 +1,7 @@
 {
   "name": "plantuml",
   "main": "./lib/plantuml",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adds shortcut to generate png files out of PlantUml text files. Expects plantUml to be available via PATH.",
   "activationCommands": {
     "atom-workspace": "plantuml:generate"
@@ -12,7 +12,6 @@
   "bugs": {
     "url": "https://github.com/mrohland/plantuml/issues"
   },
-  "repository": "https://github.com/mrohland/plantuml",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
