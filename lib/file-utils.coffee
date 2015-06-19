@@ -1,4 +1,5 @@
 remote = require "remote"
+path   = require "path"
 dialog = remote.require "dialog"
 
 module.exports =
