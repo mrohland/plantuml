@@ -1,10 +1,11 @@
 temp = require('temp').track()
+fs = require "fs"
+path = require "path"
 
 Plantuml = require '../lib/plantuml'
 
 describe "Plantuml", ->
-  [workspaceElement, activationPromise, directory, editor, fielPath,
-    buffer] = []
+  [workspaceElement, activationPromise, directory, editor, buffer] = []
 
   beforeEach ->
     directory = temp.mkdirSync()
