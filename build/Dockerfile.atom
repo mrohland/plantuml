@@ -8,7 +8,7 @@
 # Use baseimage-docker's init system.
 CMD ["/sbin/my_init"]
 
-ENV ATOM_VERSION v0.206.0
+ENV ATOM_VERSION v0.210.0
 
 # install xvfb & latest atom
 RUN apt-get update &&\
