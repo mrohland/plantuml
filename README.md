@@ -1,6 +1,6 @@
 # PlantUml Integration
 
-Atom package that provides a short cut (CMD+CTRL+P) to call plantuml from any editor window that displays some text content. Uses saved content of Texteditor to generate not only a preview but also some linkable file. ExtOnly tested locally on a OSX so far.
+Atom package that provides a short cut (CMD+CTRL+P on Mac, CMD+ALT+P on Win) to call plantuml from any editor window that displays some text content. Uses saved content of Texteditor to generate not only a preview but also some linkable file. ExtOnly tested locally on a OSX so far.
 
 ## FAQ
 
