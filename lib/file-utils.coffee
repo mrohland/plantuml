@@ -13,9 +13,9 @@ class FileUtil
 
   @getPngFilePath:(file) ->
     pngFileName = FileUtil.getPngFilename(file)
-    filePath = file.path.split('/')
+    filePath = file.path.split(path.sep)
     filePath.pop()
-    filePath.join("/") + '/' + pngFileName
+    filePath.join(path.sep) + path.sep + pngFileName
 
 # private
   @saveIfModified:(buffer) ->

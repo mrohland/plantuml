@@ -9,3 +9,6 @@
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-text-editor':
   'ctrl-cmd-p': 'plantuml:generate'
+
+'.platform-win32 atom-text-editor':
+  'ctrl-alt-p': 'plantuml:generate'
